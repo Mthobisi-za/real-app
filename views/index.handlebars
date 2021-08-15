@@ -1,0 +1,19 @@
+<h1>People who have successful registered</h1> <br> <br>
+<table> 
+    <tr>
+        <th>Name</th>
+        <th>Surname</th>
+    </tr>
+{{#each data}}
+   
+    <tr>
+        <th>{{name}}</th>
+        <th>{{surnames}}</th>
+    </tr>
+{{/each}}
+</table>
+<br> <br>
+<div>
+<button id="btn1" type="button" ><a href="/register">Register</a></button>
+ <button id="btn2"  type="button"><a href="/reset">Reset</a></button>
+ </div>
